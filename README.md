@@ -56,7 +56,7 @@ Example of .env file:
     VERSION=1.0.0
     TOKEN_LIFETIME=60 (minutes)
     DJANGO_SECRET=very_weak_secret
-    IS_STAFF=False
+    IS_ACTIVE=False
 
 
 The project was created by Alexey Mavrin in 02 June 2023
