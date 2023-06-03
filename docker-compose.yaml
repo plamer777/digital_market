@@ -16,8 +16,7 @@ services:
       timeout: 5s
 
   api:
-    build:
-      context: .
+    image: plamer88/digital_market:api-01
     env_file:
       - .env
     expose:
@@ -31,8 +30,7 @@ services:
         condition: service_completed_successfully
 
   migrations:
-    build:
-      context: .
+    image: plamer88/digital_market:api-01
     env_file:
       - .env
     volumes:
